@@ -599,12 +599,11 @@ Potential extensions to this project include:
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Fatima Shaikh**
 
-Aspiring Data Engineer | Python | SQL | Databricks | PySpark | Data Modeling | ETL | Cloud Data Engineering
+Aspiring Data Engineer | Python | SQL | Databricks | Apache Spark | Data Modeling | ETL | Cloud Data Engineering
 
 ---
-
-⭐ This repository represents my hands-on practice in modern Data Engineering and Data Modeling using Databricks.
+This repository represents my hands-on practice in modern Data Engineering and Data Modeling using Databricks.
