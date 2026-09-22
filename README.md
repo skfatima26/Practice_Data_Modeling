@@ -1,6 +1,6 @@
 # Databricks Data Modeling & Medallion Architecture
 
-## 📌 Project Overview
+## Project Overview
 
 This repository contains my hands-on practice and implementation of core **Data Engineering, Data Modeling, ETL, and Databricks Lakehouse concepts**.
 
@@ -10,7 +10,7 @@ Rather than focusing only on theoretical concepts, this project applies the conc
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 The main objectives of this project are to:
 
@@ -32,7 +32,7 @@ The main objectives of this project are to:
 
 ---
 
-# 🏗️ Concepts Covered
+# Concepts Covered
 
 ## 1. Data Modeling Fundamentals
 
@@ -87,7 +87,7 @@ The project explores why analytical workloads commonly use dimensional models co
 
 ---
 
-# 🔄 3. ETL Fundamentals & Architecture
+# 3. ETL Fundamentals & Architecture
 
 The project covers the fundamentals of:
 
@@ -121,7 +121,7 @@ The project also explores how modern lakehouse architectures organize these tran
 
 ---
 
-# 🧱 4. Databricks Free Edition
+# 4. Databricks Free Edition
 
 The project includes hands-on exploration of **Databricks Free Edition**.
 
@@ -140,7 +140,7 @@ The goal was to understand how Databricks can be used as a modern data engineeri
 
 ---
 
-# 🥉 5. Medallion Architecture
+# 5. Medallion Architecture
 
 A major focus of this project is the **Medallion Architecture**.
 
@@ -166,7 +166,7 @@ Source Data
 └──────────────┘
 ```
 
-### 🥉 Bronze Layer
+### Bronze Layer
 
 The Bronze layer stores data in a raw or minimally transformed form.
 
@@ -180,7 +180,7 @@ Practiced concepts include:
 
 ---
 
-### 🥈 Silver Layer
+### Silver Layer
 
 The Silver layer contains cleaned and refined data.
 
@@ -214,7 +214,7 @@ The exact implementation may vary depending on the table and business requiremen
 
 ---
 
-### 🥇 Gold Layer
+### Gold Layer
 
 The Gold layer focuses on business-ready and analytics-ready datasets.
 
@@ -230,7 +230,7 @@ The project uses dimensional modeling concepts to organize data for analytical w
 
 ---
 
-# 📈 6. Incremental Data Loading
+# 6. Incremental Data Loading
 
 The project explores incremental processing instead of repeatedly processing the entire dataset.
 
@@ -247,7 +247,7 @@ Incremental processing is particularly important when dealing with growing datas
 
 ---
 
-# 🔁 7. MERGE / UPSERT Operations
+# 7. MERGE / UPSERT Operations
 
 The project includes practical implementation of `MERGE` / `UPSERT` patterns.
 
@@ -271,7 +271,7 @@ This pattern is useful when maintaining incrementally updated tables.
 
 ---
 
-# 🧩 8. Dimensional Data Modeling
+# 8. Dimensional Data Modeling
 
 The project explores dimensional modeling for analytical systems.
 
@@ -326,7 +326,7 @@ sales_amount
 
 ---
 
-# ⭐ 9. Star Schema
+# 9. Star Schema
 
 The project covers the **Star Schema** design.
 
@@ -348,7 +348,7 @@ Star schemas are commonly used for analytical workloads because they provide a s
 
 ---
 
-# ❄️ 10. Snowflake Schema
+# 10. Snowflake Schema
 
 The project also explores the **Snowflake Schema**.
 
@@ -368,7 +368,7 @@ The project compares the structure and trade-offs between Star and Snowflake sch
 
 ---
 
-# 📊 11. Types of Facts
+# 11. Types of Facts
 
 The project covers different types of fact tables, including concepts such as:
 
@@ -381,7 +381,7 @@ These different fact types are useful depending on the business process and anal
 
 ---
 
-# 🗂️ 12. Types of Dimensions
+# 12. Types of Dimensions
 
 The project explores different dimension concepts, including:
 
@@ -395,7 +395,7 @@ Understanding these patterns helps design reusable and scalable analytical data 
 
 ---
 
-# 🔄 13. Slowly Changing Dimensions
+# 13. Slowly Changing Dimensions
 
 Slowly Changing Dimensions (SCD) are techniques used to manage changes in dimension data over time.
 
@@ -458,7 +458,7 @@ This allows historical analysis of how dimensional attributes changed over time.
 
 ---
 
-# 🧠 14. Best Practices Applied
+# 14. Best Practices Applied
 
 Throughout the implementation, the project focuses on practical data engineering practices such as:
 
@@ -476,7 +476,7 @@ Throughout the implementation, the project focuses on practical data engineering
 
 ---
 
-# 🛠️ Technology Stack
+# Technology Stack
 
 | Technology       | Usage                                      |
 | ---------------- | ------------------------------------------ |
@@ -490,7 +490,7 @@ Throughout the implementation, the project focuses on practical data engineering
 
 ---
 
-# 🗺️ Learning & Implementation Flow
+# Learning & Implementation Flow
 
 ```text
 Data Engineering Fundamentals
@@ -524,7 +524,7 @@ Data Engineering Fundamentals
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 The repository is organized to keep the different concepts and implementations easy to understand.
 
@@ -558,9 +558,9 @@ Databricks-Data-Modeling/
 
 ---
 
-# 🎓 Key Takeaways
+# Key Takeaways
 
-Through this hands-on project, I strengthened my understanding of:
+Through this hands-on practice, I strengthened my understanding of:
 
 * Modern Data Engineering architecture
 * Data Modeling
@@ -576,13 +576,12 @@ Through this hands-on project, I strengthened my understanding of:
 * Star and Snowflake schemas
 * Slowly Changing Dimensions
 * SCD Type 1 and Type 2
-* Analytical data design
 
 The project helped bridge the gap between **data engineering theory and practical implementation** by applying these concepts in a Databricks environment.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Potential extensions to this project include:
 
